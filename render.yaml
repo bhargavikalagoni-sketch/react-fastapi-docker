@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: fastapi-backend
+    runtime: docker
+    rootDir: backend
+    plan: free
+    region: oregon
+
+  - type: web
+    name: react-frontend
+    runtime: docker
+    rootDir: frontend
+    plan: free
+    region: oregon
